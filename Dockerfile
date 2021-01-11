@@ -1,2 +1,3 @@
-from nginx:1.18.0
-CMD [ "nginx", "-g", "echo nginx:1.18.0;" ]
+FROM ubuntu:14.04
+
+CMD ["bin/bash -c "echo ubuntu:14.04"]
